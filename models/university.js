@@ -11,6 +11,10 @@ const universitySchema = new Schema({
     type: String,
     required: true,
   },
+  visibleName: {
+    type: String,
+    required: true,
+  },
   "price": {
     type: String,
     required: false,

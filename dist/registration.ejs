@@ -1,0 +1,21 @@
+<%- include('./partials/head.ejs') %>
+<body>
+  <div class="wrapper">
+    <section class="personal">
+      <div class="personal__wrapper">
+        <h2 class="personal__title">Регистрация</h2>
+        <form class="personal__form" method="post" action="/reg">
+          <div class="personal__inputs">
+            <input type="text" class="personal__name personal__input" placeholder="name" name="name">
+            <input type="text" class="personal__surname personal__input" placeholder="surname" name="surname">
+            <input type="email" class="personal__mail personal__input" placeholder="email" name="username">
+            <input type="password" class="personal__pass personal__input" placeholder="password" name="password">
+          </div>
+          <a href="/auth" class="personal__link">у вас есть аккаунт? войти</a>
+          <button type="submit" class="personal__btn">зарегистрировать</button>
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

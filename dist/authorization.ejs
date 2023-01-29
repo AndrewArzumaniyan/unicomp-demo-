@@ -1,0 +1,19 @@
+<%- include('./partials/head.ejs') %>
+<body>
+  <div class="wrapper">
+    <section class="personal">
+      <div class="personal__wrapper">
+        <h2 class="personal__title">Вход в аккаунт</h2>
+        <form class="personal__form" method="post" action="/auth">
+          <div class="personal__inputs">
+            <input type="email" class="personal__mail personal__input" placeholder="email" name="username">
+            <input type="password" class="personal__pass personal__input" placeholder="password" name="password">
+          </div>
+          <a href="/reg" class="personal__link">у вас нет аккаунта? регистрация</a>
+          <button class="personal__btn">войти</button>
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
