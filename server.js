@@ -35,8 +35,8 @@ app.use(express.static('./dist/fonts'))
 app.use(express.static('./dist/images'))
 app.use(express.static('./dist/js'))
 
-app.use(authRoutes);
-app.use(regRoutes);
+// app.use(authRoutes);
+// app.use(regRoutes);
 app.use(accRoutes);
 app.use(homeRoutes);
 app.use(marketRoutes);
