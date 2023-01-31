@@ -1462,7 +1462,7 @@ body.hidden {
   display: flex;
   overflow-y: auto;
   overflow-x: hidden;
-  max-height: 400px;
+  height: 400px;
   margin-bottom: 30px;
 }
 
@@ -2443,24 +2443,24 @@ img {
 
 @media (max-height: 680px) {
   .uni-modal__list-box {
-    max-height: 280px;
+    height: 280px;
   }
 }
 
 @media (max-height: 550px) {
   .uni-modal__list-box {
-    max-height: 180px;
+    height: 180px;
   }
 }
 
 @media (max-height: 470px) {
   .uni-modal__list-box {
-    max-height: 100px;
+    height: 100px;
   }
 }
 
 @media (max-height: 370px) {
   .uni-modal__list-box {
-    max-height: 50px;
+    height: 50px;
   }
 }
