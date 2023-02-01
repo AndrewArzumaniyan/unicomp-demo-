@@ -1812,7 +1812,7 @@ img {
 }
 
 .mobile-table__container {
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
@@ -1853,6 +1853,12 @@ img {
   font-size: 18px;
   text-align: left;
   margin-bottom: 10px;
+}
+
+.mobile-table__slider {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .mobile-table__slide-title {
@@ -2589,6 +2595,12 @@ img {
 
   .uni-modal__search-input {
     width: 200px;
+  }
+}
+
+@media (max-width: 430px), (max-height: 430px) {
+  .search__box {
+    display: none;
   }
 }
 
