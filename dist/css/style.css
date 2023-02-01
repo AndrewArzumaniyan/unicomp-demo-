@@ -2651,9 +2651,12 @@ img {
   }
 }
 
-@media (max-height: 550px) {
+@media (max-height: 580px) {
   .uni-modal__list-box {
     height: 180px;
+  }
+  .header__nav {
+    display: none;
   }
 }
 
