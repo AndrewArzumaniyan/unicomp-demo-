@@ -2658,6 +2658,9 @@ img {
   .header__nav {
     display: none;
   }
+  .hero__slide-box {
+    top: 35%;
+  }
 }
 
 @media (max-height: 470px) {
@@ -2669,5 +2672,8 @@ img {
 @media (max-height: 370px) {
   .uni-modal__list-box {
     height: 50px;
+  }
+  .hero__slide-box {
+    top: 15%;
   }
 }
